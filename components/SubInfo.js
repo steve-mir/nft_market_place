@@ -45,7 +45,12 @@ export const People = () => {
 
 export const EndDate = () => {
   return (
-    <View>
+    <View 
+        style={{
+            paddingHorizontal: SIZES.font,
+            paddingVertical: SIZES.base,
+            backgroundColor: COLORS.white
+        }}>
       <Text>EndDate</Text>
     </View>
   )
